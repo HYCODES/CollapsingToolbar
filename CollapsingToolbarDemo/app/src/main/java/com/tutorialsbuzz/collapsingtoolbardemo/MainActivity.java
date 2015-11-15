@@ -67,12 +67,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        int itemId = item.getItemId();
-        switch (itemId) {
-            case android.R.id.home:
-                Toast.makeText(getApplicationContext(),"back button click" ,Toast.LENGTH_SHORT).show();
-        }
-
         return super.onOptionsItemSelected(item);
 
     }
